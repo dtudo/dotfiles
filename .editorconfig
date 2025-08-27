@@ -10,3 +10,6 @@ trim_trailing_whitespace = true
 # Ignore files and directories
 [.git/**]
 ignore = true
+
+[dotfiles.zsh]
+ignore = true
