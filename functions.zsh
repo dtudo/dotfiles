@@ -26,6 +26,13 @@ function dot::update() {
 }
 
 function dot::updatesys() {
+  DOT_LOCAL_METADATA="$DOT_DIR/.local"
+  DOT_UPDATESYS_LAST_RUN="$DOT_LOCAL_METADATA/updatesys-last-run"
+
+  # Mark timestamp of successful run (epoch seconds)
+  mkdir -p "$DOT_LOCAL_METADATA"
+  date +%s >"$DOT_UPDATESYS_LAST_RUN"
+
   "$DOT_DIR/bin/updatesys/main.sh"
 }
 
