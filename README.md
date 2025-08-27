@@ -16,6 +16,15 @@ Dotfiles project containing shared configuration files and executables for consi
 curl -fsSL https://raw.githubusercontent.com/dtudo/dotfiles/main/install.sh | bash
 ```
 
+## dot CLI
+
+| Command         | Description        |
+| --------------- | ------------------ |
+| `dot update`    | update dotfiles    |
+| `dot updatesys` | update system      |
+| `dot uninstall` | uninstall dotfiles |
+| `dot help`      | show help          |
+
 ## Contributing Guidelines
 
 The following sections describe the standards for making changes to this repository.
