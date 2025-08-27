@@ -19,7 +19,6 @@ packages=(
   unzip
   curl
   wget
-  just
 )
 
 sudo apt-get install -y "${packages[@]}"
