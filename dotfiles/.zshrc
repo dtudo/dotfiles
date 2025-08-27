@@ -27,13 +27,6 @@ zstyle ':completion:*' rehash true
 autoload -Uz promptinit && promptinit
 prompt pure
 
-# pnpm
-export PNPM_HOME="/home/dtudo/.local/share/pnpm"
-case ":$PATH:" in
-*":$PNPM_HOME:"*) ;;
-*) export PATH="$PNPM_HOME:$PATH" ;;
-esac
-
 # dotfiles
 export DOT_DIR="$HOME/.dotfiles"
 [ -s "$DOT_DIR/dotfiles.zsh" ] && \. "$DOT_DIR/dotfiles.zsh"
