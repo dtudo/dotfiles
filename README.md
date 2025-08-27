@@ -2,6 +2,14 @@
 
 Dotfiles project containing shared configuration files and executables for consistent setup. Made for Ubuntu and zsh.
 
+## Prerequisites
+
+- git
+- antidote
+- batcat
+- mise
+- aws cli
+
 ## Installation
 
 ```bash

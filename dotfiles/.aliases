@@ -1,0 +1,11 @@
+alias home='cd $HOME'
+alias work='cd $HOME/workplace'
+alias dotfiles='cd $DOT_DIR'
+
+alias bat='batcat'
+
+alias aws-whoami='aws sts get-caller-identity'
+
+alias git-count='git rev-list --count HEAD'
+
+alias explorer='explorer.exe .'
