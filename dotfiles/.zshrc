@@ -30,3 +30,11 @@ prompt pure
 # dotfiles
 export DOT_DIR="$HOME/.dotfiles"
 [ -s "$DOT_DIR/dotfiles.zsh" ] && \. "$DOT_DIR/dotfiles.zsh"
+
+# pnpm
+export PNPM_HOME="/home/dragos/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
