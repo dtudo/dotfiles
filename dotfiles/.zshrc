@@ -3,7 +3,7 @@ export BROWSER=wslview
 export EDITOR='nano'
 
 # History settings
-HISTFILE=~/.zsh_history
+HISTFILE="$HOME/.zsh_history"
 HISTSIZE=10000
 SAVEHIST=10000
 HIST_STAMPS="mm/dd/yyyy"
@@ -12,7 +12,6 @@ setopt share_history
 setopt extended_history
 
 # Antidote
-zstyle ':antidote:bundle' lazy true
 source "$HOME/.antidote/antidote.zsh"
 antidote load
 
