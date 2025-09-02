@@ -1,10 +1,13 @@
+mattmc3/ez-compinit
+
 getantidote/use-omz
 ohmyzsh/ohmyzsh path:lib
+
 ohmyzsh/ohmyzsh path:plugins/git
-ohmyzsh/ohmyzsh path:plugins/mise
+ohmyzsh/ohmyzsh path:plugins/mise kind:defer
 
 sindresorhus/pure kind:fpath
 
-zsh-users/zsh-autosuggestions
-MichaelAquilina/zsh-you-should-use
+zsh-users/zsh-autosuggestions kind:defer
+MichaelAquilina/zsh-you-should-use kind:defer
 zsh-users/zsh-syntax-highlighting

@@ -1,4 +1,5 @@
 # Exports
+export PATH="$HOME/.local/bin:$PATH"
 export BROWSER=wslview
 export EDITOR='nano'
 
@@ -14,13 +15,6 @@ setopt extended_history
 # Antidote
 source "$HOME/.antidote/antidote.zsh"
 antidote load
-
-# mise
-eval "$(~/.local/bin/mise activate zsh)"
-
-# Enable smart completions
-autoload -Uz compinit && compinit -C
-zstyle ':completion:*' rehash true
 
 # Pure prompt
 autoload -Uz promptinit && promptinit
