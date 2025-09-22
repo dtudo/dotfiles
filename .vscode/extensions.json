@@ -11,6 +11,7 @@
     "davidanson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "nefrob.vscode-just-syntax"
+    "nefrob.vscode-just-syntax",
+    "bradlc.vscode-tailwindcss"
   ]
 }
